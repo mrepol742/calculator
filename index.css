@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    background:#ffffff;
+}
+
+input {
+    height: 80px;
+    width: 25%;
+    float: right;
+    outline: none;
+    transition: 0.2s;
+    font-family: maven;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 80px;
+    font-size: 42px;
+    background:transparent;
+    border:none;
+    color: #222;;
+}
+
+input[type="button"] {
+    background:#333;
+    color:#fff;
+    border-color: #333;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.equal {
+    width: 25%;
+}
+
+#rst{
+    width: 25%;
+    background:#ff7800;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 22px;
+    margin: 5px;
+}
+
+input:active {
+    background:#555;
+}
+
+input:active[type="text"]{
+    background:transparent;
+}
+
+@font-face {
+    font-family: maven;
+    src:url("Maven-Pro.ttf");
+}
