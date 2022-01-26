@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Calculator</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-<link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-<form name="c" >
-<div class="calc">
-<input type="text" name="a" id="txt" class="ans" disabled><br>
-</div>
-<div class="body">
-<br>
-<input type="button" onclick="document.c.a.value+='7'" value="7">
-<input type="button" value="8" onclick="document.c.a.value+='8'">
-<input type="button" value="9" class="nums" onclick="document.c.a.value+='9'">
-<input type="button" value="+" class="plus" onclick="document.c.a.value+='+'"><br>
+    <form name="c">
+        <div class="calc">
+            <input type="text" name="a" id="txt" class="ans" disabled><br>
+        </div>
+        <div class="body">
+            <br>
+            <input type="button" onclick="document.c.a.value+='7'" value="7">
+            <input type="button" value="8" onclick="document.c.a.value+='8'">
+            <input type="button" value="9" class="nums" onclick="document.c.a.value+='9'">
+            <input type="button" value="+" class="plus" onclick="document.c.a.value+='+'"><br>
 
-<input type="button" value="4" class="nums" onclick="document.c.a.value+='4'">
-<input type="button" value="5" class="nums" onclick="document.c.a.value+='5'">
-<input type="button" value="6" class="nums1" onclick="document.c.a.value+='6'">
-<input type="button" value="–" class="minus" onclick="document.c.a.value+='-'"><br>
-<input type="button" value="1" class="nums1" onclick="document.c.a.value+='1'">
-<input type="button" value="2" class="nums2" onclick="document.c.a.value+='2'">
-<input type="button" value="3" class="nums2" onclick="document.c.a.value+='3'">
-<input type="button" value="×" class="mul" onclick="document.c.a.value+='*'"><br>
-<input type="button" value="." class="percent" onclick="document.c.a.value+='.'">
-<input type="button" value="0" class="nums3" onclick="document.c.a.value+='0'">
-<input type="button"  onclick="document.c.a.value = document.c.a.value.slice(0, -1)" value="←">
-<input type="button" value="÷" class="divide" onclick="document.c.a.value+='/'"><br>
+            <input type="button" value="4" class="nums" onclick="document.c.a.value+='4'">
+            <input type="button" value="5" class="nums" onclick="document.c.a.value+='5'">
+            <input type="button" value="6" class="nums1" onclick="document.c.a.value+='6'">
+            <input type="button" value="–" class="minus" onclick="document.c.a.value+='-'"><br>
+            <input type="button" value="1" class="nums1" onclick="document.c.a.value+='1'">
+            <input type="button" value="2" class="nums2" onclick="document.c.a.value+='2'">
+            <input type="button" value="3" class="nums2" onclick="document.c.a.value+='3'">
+            <input type="button" value="×" class="mul" onclick="document.c.a.value+='*'"><br>
+            <input type="button" value="." class="percent" onclick="document.c.a.value+='.'">
+            <input type="button" value="0" class="nums3" onclick="document.c.a.value+='0'">
+            <input type="button" onclick="document.c.a.value = document.c.a.value.slice(0, -1)" value="←">
+            <input type="button" value="÷" class="divide" onclick="document.c.a.value+='/'"><br>
 
-<input type="button" value="=" class="equal" onclick="document.c.a.value=eval(document.c.a.value)">
-<input type="reset" value="AC" id="rst" >
-</div>
-</form>
-<script type="text/javascript">
-var a = document.getElementById("txt").value;
-</script>
+            <input type="button" value="=" class="equal" onclick="document.c.a.value=eval(document.c.a.value)">
+            <input type="reset" value="AC" id="rst">
+        </div>
+    </form>
+    <script type="text/javascript">
+        var a = document.getElementById("txt").value;
+    </script>
 </body>
+
 </html>
