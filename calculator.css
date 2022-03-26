@@ -1,0 +1,107 @@
+/*
+*
+* Copyright (c) 2022 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
+*
+* License under the GNU General Public License, Version 3.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.gnu.org/licenses/gpl-3.0.en.html
+*
+* Unless required by the applicable law or agreed in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: local("sans serif"), local("sans-serif"), url("/fonts/Maven-Pro.ttf");
+    font-display: swap;
+}
+
+::selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+body {
+    background: #4286f40a !important;
+    display: grid;
+    color: #212121;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.main {
+    text-align: center;
+    display: grid;
+}
+
+input {
+    height: 80px;
+    width: 25%;
+    float: right;
+    outline: none;
+    transition: 0.2s;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 80px;
+    font-size: 42px;
+    background:transparent;
+    border:none;
+    color: #222;;
+}
+
+input[type="button"] {
+    background:#333;
+    color:#fff;
+    border-color: #333;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.equal {
+    width: 25%;
+}
+
+#rst{
+    width: 25%;
+    background:#ff7800;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 22px;
+    margin: 5px;
+}
+
+input:active {
+    background:#555;
+}
+
+input:active[type="text"]{
+    background:transparent;
+}
