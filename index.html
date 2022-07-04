@@ -1,29 +1,10 @@
-<!--
-~
-~ Copyright (c) 2022 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
-~
-~ License under the GNU General Public License, Version 3.0 (the "License");
-~ you may not use this file except in compliance with the License.
-~ You may obtain a copy of the License at
-~
-~     https://www.gnu.org/licenses/gpl-3.0.en.html
-~
-~ Unless required by the applicable law or agreed in writing, software
-~ distributed under the License is distributed on an "AS IS" BASIS,
-~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-~ See the License for the specific language governing permissions and
-~ limitations under the License.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<meta property="og:type" content="website" />
-
-    <meta property="og:image:alt" content="Melvin Jones Repol">
+	<meta property="og:type" content="website" />  <meta property="og:image:alt" content="Melvin Jones Repol">
     <meta property="twitter:image:src" content="/images/mrepol742.jpg"/>
     <meta property="twitter:title" content="Calculator - Melvin Jones Repol"/>
     <meta property="twitter:description" content="A simple calculator for Webvium."/>  
@@ -37,21 +18,13 @@
 	<meta name="description" content="A simple calculator for Webvium.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="twitter:site" content="@mrepol742" />
+	
 <meta name="twitter:creator" content="@mrepol742" />
 	<meta name="twitter:domain" content="mrepol742.github.io" />
 	<meta name="twitter:card" content="summary">
 	<meta name="author" content="Melvin Jones Repol">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="hostname" content="mrepol742.github.io">
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NHWCF85JCG"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'G-NHWCF85JCG');
-	</script>
 	<script>(function (w, d, s, l, i) {
 			w[l] = w[l] || []; w[l].push({
 				'gtm.start':
@@ -60,7 +33,7 @@
 				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
 					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-		<link rel="author" href="/humans.txt" />
+		
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="shortcut icon" href="/favicon.png">
 	<link rel="apple-touch-icon" href="/favicon.png">
@@ -80,9 +53,7 @@
             <input type="button" onclick="document.c.a.value+='7'" value="7">
             <input type="button" value="8" onclick="document.c.a.value+='8'">
             <input type="button" value="9" class="nums" onclick="document.c.a.value+='9'">
-            <input type="button" value="+" class="plus" onclick="document.c.a.value+='+'"><br>
-
-            <input type="button" value="4" class="nums" onclick="document.c.a.value+='4'">
+            <input type="button" value="+" class="plus" onclick="document.c.a.value+='+'"><br>          <input type="button" value="4" class="nums" onclick="document.c.a.value+='4'">
             <input type="button" value="5" class="nums" onclick="document.c.a.value+='5'">
             <input type="button" value="6" class="nums1" onclick="document.c.a.value+='6'">
             <input type="button" value="–" class="minus" onclick="document.c.a.value+='-'"><br>
@@ -93,9 +64,7 @@
             <input type="button" value="." class="percent" onclick="document.c.a.value+='.'">
             <input type="button" value="0" class="nums3" onclick="document.c.a.value+='0'">
             <input type="button" onclick="document.c.a.value = document.c.a.value.slice(0, -1)" value="←">
-            <input type="button" value="÷" class="divide" onclick="document.c.a.value+='/'"><br>
-
-            <input type="button" value="=" class="equal" onclick="document.c.a.value=eval(document.c.a.value)">
+            <input type="button" value="÷" class="divide" onclick="document.c.a.value+='/'"><br>          <input type="button" value="=" class="equal" onclick="document.c.a.value=eval(document.c.a.value)">
             <input type="reset" value="AC" id="rst">
         </div>
     </div>
