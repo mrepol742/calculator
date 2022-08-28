@@ -1,61 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://mrepol742.github.io/favicon.ico" type="image/x-icon">
+    <meta property="og:type" content="website" />
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<meta property="og:type" content="website" />  <meta property="og:image:alt" content="Melvin Jones Repol">
-    <meta property="twitter:image:src" content="/images/mrepol742.png"/>
-    <meta property="twitter:title" content="Calculator - Melvin Jones Repol"/>
-    <meta property="twitter:description" content="A simple calculator for Webvium."/>  
-	<meta property="og:title" content="Calculator | Melvin Jones Repol">
-	<meta property="og:url" content="https://mrepol742.github.io/calculator/">
-	
-	<meta property="og:site_name" content="Calculator - Melvin Jones Repol">
-	
-	<meta property="og:description" content="A simple calculator for Webvium.">
-	<meta property="og:image" content="/images/mrepol742.png">
-	<meta name="description" content="A simple calculator for Webvium.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	
-<meta name="twitter:site" content="@mrepol742" />
-	<meta name="twitter:domain" content="mrepol742.github.io" />
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="author" content="Melvin Jones Repol">
-	<meta name="theme-color" content="#ffffff">
-	<meta name="hostname" content="mrepol742.github.io">
-	<script>(function (w, d, s, l, i) {
-			w[l] = w[l] || []; w[l].push({
-				'gtm.start':
-					new Date().getTime(), event: 'gtm.js'
-			}); var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-		
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="shortcut icon" href="/favicon.png">
-	<link rel="apple-touch-icon" href="/favicon.png">
-    <title>Calculator -  Melvin Jones Repol</title>
+    <meta property="og:image:alt" content="Picture of Melvin Jones Repol">
+    <meta property="twitter:image:src" content="https://mrepol742.github.io/images/mrepol742.png" />
+    <meta property="twitter:title"
+      content="Calculator - Melvin Jones Repol" />
+    <meta property="twitter:description"
+      content="A simple sample of calculator made in JavaScript." />
+    <meta property="og:title"
+      content="Melvin Jones Repol">
+    <meta property="og:url" content="https://mrepol742.github.io/calculator/">
+    <link rel="license" href="https://raw.githubusercontent.com/mrepol742/calculator/master/LICENSE">
+    <link rel="canonical" href="https://mrepol742.github.io/calculator/">
+    <meta content="origin" name="referrer">
+    <meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+    <link rel="alternate" type="application/rss+xml" title="Melvin Jones Repol » Feed"
+      href="https://mrepol742.github.io/rss/rss.xml">
+    <meta property="og:site_name"
+      content="Calculator - Melvin Jones Repol">
+    <meta property="og:description"
+      content="A simple sample of calculator made in JavaScript.">
+    <meta property="og:image" content="https://mrepol742.github.io/images/mrepol742.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="melvin jones repol, mrepol742, calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+      content="A simple sample of calculator made in JavaScript.">
+    <meta name="author" content="Melvin Jones Repol">
+  
+    <meta name="twitter:site" content="@mrepol742" />
+    <meta name="twitter:domain" content="mrepol742.github.io" />
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="manifest" href="https://mrepol742.github.io/site.webmanifest">
+    <meta name="hostname" content="mrepol742.github.io">
+    <link rel="shortcut icon" href="https://mrepol742.github.io/favicon.png">
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
+    <link rel="apple-touch-icon" href="https://mrepol742.github.io/favicon.png">
+    <title>Calculator - Melvin Jones Repol</title>
     <link rel="stylesheet" href="calculator.css">
 </head>
 
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0"
         style="display:none;visibility:hidden"></iframe></noscript>
-    <div name="c">
+    <form name="c">
         <div class="calc">
             <input type="text" name="a" id="txt" class="ans" disabled><br>
         </div>
         <div class="body">
             <br>
-            <input type="button" onclick="document.c.a.value+='7'" value="7">
-            <input type="button" value="8" onclick="document.c.a.value+='8'">
             <input type="button" value="9" class="nums" onclick="document.c.a.value+='9'">
-            <input type="button" value="+" class="plus" onclick="document.c.a.value+='+'"><br>          <input type="button" value="4" class="nums" onclick="document.c.a.value+='4'">
-            <input type="button" value="5" class="nums" onclick="document.c.a.value+='5'">
+            <input type="button" value="8" onclick="document.c.a.value+='8'">
+            <input type="button" onclick="document.c.a.value+='7'" value="7">
+            
+            
+            <input type="button" value="+" class="plus" onclick="document.c.a.value+='+'"><br>
             <input type="button" value="6" class="nums1" onclick="document.c.a.value+='6'">
+            <input type="button" value="5" class="nums" onclick="document.c.a.value+='5'">
+            <input type="button" value="4" class="nums" onclick="document.c.a.value+='4'">
+            
             <input type="button" value="–" class="minus" onclick="document.c.a.value+='-'"><br>
             <input type="button" value="1" class="nums1" onclick="document.c.a.value+='1'">
             <input type="button" value="2" class="nums2" onclick="document.c.a.value+='2'">
@@ -64,20 +78,11 @@
             <input type="button" value="." class="percent" onclick="document.c.a.value+='.'">
             <input type="button" value="0" class="nums3" onclick="document.c.a.value+='0'">
             <input type="button" onclick="document.c.a.value = document.c.a.value.slice(0, -1)" value="←">
-            <input type="button" value="÷" class="divide" onclick="document.c.a.value+='/'"><br>          <input type="button" value="=" class="equal" onclick="document.c.a.value=eval(document.c.a.value)">
+            <input type="button" value="÷" class="divide" onclick="document.c.a.value+='/'"><br>
+            <input type="button" value="=" class="equal" onclick="document.c.a.value=eval(document.c.a.value)">
             <input type="reset" value="AC" id="rst">
         </div>
     </div>
-    <script>
-        var a = document.getElementById("txt").value;
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js').then((reg) => {
-                console.log('[ServiceWorker] Registered');
-            }).catch((err) => {
-                console.error('[ServiceWorker] failed: ', err)
-            });
-        }
-      </script>
 </body>
 
 </html>
